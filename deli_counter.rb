@@ -18,6 +18,7 @@ def line(array)
   else
     message = "The line is currently:"
     array.each_with_index do |value, index|
+      puts message "#{value}"
   end
-end
+  end
 end
