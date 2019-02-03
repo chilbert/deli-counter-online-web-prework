@@ -20,3 +20,4 @@ def line(array)
     array.each_with_index do |value, index|
   end
 end
+end
